@@ -9,12 +9,6 @@ public class HomeController {
     @GetMapping("/")
     @ResponseBody
     public String home(){
-        return """
-                <html>
-                <body>
-                <h2 style="color: red;">MyShop</h2>
-                </body>
-                </html>
-                """;
+        return "home";
     }
 }
