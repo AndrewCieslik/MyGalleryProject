@@ -13,14 +13,14 @@
     </header>
 
     <div class="main-content">
-        <h1>Dodaj</h1>
-
-        <form>
+        <form th:action="@{/admin}" method="post">
             <label>Nazwa</label>
             <input type="text" name="name" required>
             <label>Cena</label>
-            <input type="text">
-            <button>Dodaj</button>
+            <input type="number" min="0.01" step="0.01" name="price" required>
+            <label>urlImg</label>
+            <input type="text" name="imgUrl">
+            <button type="submit">Add</button>
         </form>
     </div>
 </div>
