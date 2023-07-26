@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http:thymeleaf.org" xmlns:text="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>MyShop</title>
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
 
    
 <body>
@@ -22,74 +22,9 @@
 
     <div class="main-content">
         <div class="item">
-            <p class="item-name">
-                Pen
+            <p class="item-name" th:text="${item.name}">
             </p>
-            
-            <img src="https://images.pexels.com/photos/261450/pexels-photo-261450.jpeg?cs=srgb&dl=pexels-pixabay-261450.jpg&fm=jpg">
-            
-            <div>
-                <span>Cena: </span>
-                <span>200</span>
-                <span>eur</span>
-            </div>
 
-            <a href="" class="add-btn">Dodaj</a>
-        </div>
-
-        <div class="item">
-            <p class="item-name">
-                Pen
-            </p>
-            
-            <img src="https://images.pexels.com/photos/261450/pexels-photo-261450.jpeg?cs=srgb&dl=pexels-pixabay-261450.jpg&fm=jpg">
-            
-            <div>
-                <span>Cena: </span>
-                <span>200</span>
-                <span>eur</span>
-            </div>
-
-            <a href="" class="add-btn">Dodaj</a>
-        </div>
-
-        <div class="item">
-            <p class="item-name">
-                Pen
-            </p>
-            
-            <img src="https://images.pexels.com/photos/261450/pexels-photo-261450.jpeg?cs=srgb&dl=pexels-pixabay-261450.jpg&fm=jpg">
-            
-            <div>
-                <span>Cena: </span>
-                <span>200</span>
-                <span>eur</span>
-            </div>
-
-            <a href="" class="add-btn">Dodaj</a>
-        </div>
-
-        <div class="item">
-            <p class="item-name">
-                Pen
-            </p>
-            
-            <img src="https://images.pexels.com/photos/261450/pexels-photo-261450.jpeg?cs=srgb&dl=pexels-pixabay-261450.jpg&fm=jpg">
-            
-            <div>
-                <span>Cena: </span>
-                <span>200</span>
-                <span>eur</span>
-            </div>
-
-            <a href="" class="add-btn">Dodaj</a>
-        </div>
-
-        <div class="item">
-            <p class="item-name">
-                Pen
-            </p>
-            
             <img src="https://images.pexels.com/photos/261450/pexels-photo-261450.jpeg?cs=srgb&dl=pexels-pixabay-261450.jpg&fm=jpg">
             
             <div>
