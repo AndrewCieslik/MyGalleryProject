@@ -1,7 +1,9 @@
 package com.nopainnogame.myShop.controller;
 
+import com.nopainnogame.myShop.model.Item;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -10,5 +12,10 @@ public class AdminController {
     @GetMapping
     private String adminPage() {
         return "adminview/addItem";
+    }
+
+    @PostMapping
+    private String addItem(Item item){
+
     }
 }
