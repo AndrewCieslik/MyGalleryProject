@@ -5,7 +5,6 @@
     <title>MyShop</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-   
 <body>
     <header>
         <span class="title">MyShop</span>
@@ -21,7 +20,7 @@
     </header>
 
     <div class="main-content">
-        <div class="item">
+        <div class="item" th:each="item : ${items}">
             <p class="item-name" th:text="${item.name}">
             </p>
 
