@@ -1,10 +1,25 @@
 import java.util.Random;
 
-public class Player {
+abstract public class Player {
 
-    Random brain =new Random();
+    private String name = "default";
 
-    public int guess() {
-        return brain.nextInt(6) +1;
+    public abstract int guess();
+
+    public void setName(String name) {
+        if (name != null && !name.isEmpty()) {         //!".equals(name) bezpieczne ze wzgledu na null
+            this.name = name;
+        }
+        else {
+            System.out.println("Wrong name");
+        }
+    }
+    public Player() {}
+    public Player (String name) {
+        setName(name);
+    }
+
+    public String getName() {
+        return name;
     }
 }

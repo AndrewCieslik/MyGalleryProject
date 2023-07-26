@@ -4,7 +4,7 @@ public class GraRzutKostkaPIO {
     public static void main(String[] args) {
 
         Random dice = new Random();
-        Player player = new Player();
+        Player player = new PlayerDumb("zz");
 
         int number;
         int guess;
@@ -17,7 +17,7 @@ public class GraRzutKostkaPIO {
             System.out.println("Gracz: " + guess);
 
             if (guess == number) {
-                System.out.println("Great!");
+                System.out.println("Great! " + player.getName());
             } else {
                 System.out.println("Wrong!");
             }
