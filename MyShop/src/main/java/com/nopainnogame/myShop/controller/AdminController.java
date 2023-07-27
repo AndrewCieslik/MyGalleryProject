@@ -17,6 +17,6 @@ public class AdminController {
     @PostMapping
     private String addItem(Item item) {
         HomeController.items.add(item);
-        return "redirect/";
+        return "redirect:/";
     }
 }
