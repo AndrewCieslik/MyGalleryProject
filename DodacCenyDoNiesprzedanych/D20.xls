@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9996</WindowHeight>
+  <WindowWidth>9996</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>132</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7"/>
+   <Interior ss:Color="#9966CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font ss:FontName="Arial" x:Family="Swiss"/>
+   <Interior ss:Color="#E6E6FF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="WZ  D0000012021  27122021  INT">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="42" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="258"/>
+   <Row ss:AutoFitHeight="0" ss:Height="30" ss:StyleID="s62">
+    <Cell><Data ss:Type="String">NAZWA_TOWA</Data></Cell>
+    <Cell><Data ss:Type="String">ILOSC</Data></Cell>
+    <Cell><Data ss:Type="String">Cena jed. netto</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 968</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">36.590000000000003</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PS 921</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B3W033PR</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">34.15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 979/4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">80.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Bosch 1 457 434 314 PP968</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">47.15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PE 973/2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">52.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 960/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">65.040000000000006</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 940</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">52.85</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 950</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">36.590000000000003</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PM 936</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">26.02</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B3G005PR PP 865/2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">22.76</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PS 865/4</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">29.27</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP839/4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">69.11</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP 841</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">17.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP 840</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">14.63</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Bosch 1 457 434 437</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">52.03</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP 848/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">42.28</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PM 858</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">13.82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PS860</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">9.76</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 865/5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">28.46</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PX C446</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">24.39</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 838/1</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">55.28</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B3W018PR PP 836/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20.329999999999998</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa B3G011PR PP 865</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">15.45</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B30329PR</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">36.590000000000003</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 848/2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">60.98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP 850</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">52.85</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 855</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">39.020000000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PP 850/2</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">45.53</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PP 839/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">44.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B3W020PR</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">34.15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa B3W006PR PP 839/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">32.520000000000003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa B3G031PR PE 816/5</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">34.15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa PE 815/5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">30.89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PS860</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">9.76</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PE 816/3</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">47.15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PE815/2</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="Number">23.17</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PM 816/1</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">20.329999999999998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa FILTRON PM 815/4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">34.15</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PE 816/5</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">44.72</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Filtr paliwa Filtron PE 816/4</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="Number">36.590000000000003</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
