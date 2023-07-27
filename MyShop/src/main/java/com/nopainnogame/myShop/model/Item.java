@@ -23,4 +23,10 @@ public class Item {
     private String name;
     private BigDecimal price;
     private String imgUrl;
+
+    public Item(String name, BigDecimal price, String imgUrl) {
+        this.name = name;
+        this.price = price;
+        this.imgUrl = imgUrl;
+    }
 }
