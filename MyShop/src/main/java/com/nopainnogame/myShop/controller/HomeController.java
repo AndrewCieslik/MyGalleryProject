@@ -37,6 +37,11 @@ public class HomeController {
             cart = new ArrayList<>();
         }
         Optional<Item> oItem = itemRepository.findById(itemId);
+        if(oItem.isPresent()){
+            Item item = oItem;
+            cart.add(item);
+            session.getAttribute("cart");
+        }
         model.addAttribute("items", itemRepository.findAll());
         return "home";
     }
