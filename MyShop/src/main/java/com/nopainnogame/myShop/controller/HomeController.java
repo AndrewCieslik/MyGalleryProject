@@ -38,7 +38,7 @@ public class HomeController {
         }
         Optional<Item> oItem = itemRepository.findById(itemId);
         if(oItem.isPresent()){
-            Item item = oItem;
+            Item item = oItem.get();
             cart.add(item);
             session.getAttribute("cart");
         }
