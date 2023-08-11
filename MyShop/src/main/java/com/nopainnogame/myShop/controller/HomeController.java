@@ -29,7 +29,10 @@ public class HomeController {
     }
 
     @GetMapping("/add/{itemId}")
-    public String addItemToCart(@PathVariable("itemId") Long itemId) {
+    public String addItemToCart(@PathVariable("itemId") Long itemId, Model model, HttpSession session) {
+        @SuppressWarnings("unchecked") List<Item> cart = (List<Item>) session.getAttribute("cart");
+        model.addAttribute("items", itemRepository.findAll());
         return "home";
     }
+
 }
