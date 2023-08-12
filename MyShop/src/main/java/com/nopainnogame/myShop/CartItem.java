@@ -1,6 +1,7 @@
 package com.nopainnogame.myShop;
 
 import com.nopainnogame.myShop.model.Item;
+import lombok.Getter;
 
 import java.math.BigDecimal;
 
@@ -8,6 +9,10 @@ public class CartItem {
     private Item item;
     private int counter;
     private BigDecimal price;
+@Getter
+    public Item getItem() {
+        return item;
+    }
 
     public CartItem(Item item) {
         this.item = item;
