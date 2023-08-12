@@ -40,7 +40,7 @@ public class HomeController {
         if(oItem.isPresent()){
             Item item = oItem.get();
             cart.add(item);
-            session.getAttribute("cart");
+            session.setAttribute("cart", cart);
         }
         model.addAttribute("items", itemRepository.findAll());
         return "home";

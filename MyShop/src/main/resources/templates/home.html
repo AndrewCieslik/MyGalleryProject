@@ -4,21 +4,9 @@
     <meta charset="UTF-8">
     <title>MyShop</title>
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-
+</head>
 <body>
-    <header>
-        <span class="title">MyShop</span>
-
-        <a href="" class="cart-ico">
-            <div>
-                <span>Cart</span>
-                <span>(0)</span>
-                <span>eur</span>
-            </div>
-        </a>
-    </head>
-    </header>
-
+    <header th:replace="fragments/header :: ShopHeader"></header>
     <div class="main-content">
         <div class="item" th:each="item : ${items}">
             <p class="item-name" th:text="${item.name}">
