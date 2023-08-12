@@ -5,14 +5,12 @@ import lombok.Getter;
 
 import java.math.BigDecimal;
 
+@Getter
+
 public class CartItem {
     private Item item;
     private int counter;
     private BigDecimal price;
-@Getter
-    public Item getItem() {
-        return item;
-    }
 
     public CartItem(Item item) {
         this.item = item;

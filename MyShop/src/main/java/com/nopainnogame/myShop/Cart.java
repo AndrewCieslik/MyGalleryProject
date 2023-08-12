@@ -23,10 +23,25 @@ public class Cart {
             if (ci.getItem().getId().equals(item.getId())) {
                 notFound = false;
                 ci.increaseCounter();
+                break;
             }
         }
         if (notFound) {
             cartItems.add(new CartItem(item));
         }
+    }
+
+    public void removeItem(Item item){
+        for(CartItem ci : cartItems){
+            if (ci.getItem().getId().equals(item.getId())) {
+                ci.decreaseCounter();
+                if(ci.hasZeroItems()){
+                    cartItems.remove(ci);
+                }
+                break;
+            }
+
+        }
+
     }
 }
