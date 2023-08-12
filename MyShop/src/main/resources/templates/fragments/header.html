@@ -8,6 +8,7 @@
         <a href="" class="cart-ico">
             <div>
                 <span>Cart</span>
+                <span th:if="${session.cart != null}" th:text="${session.cart.size()}"></span>
                 <span>(0)</span>
                 <span>eur</span>
             </div>
