@@ -27,6 +27,10 @@ public class CartItem {
         }
     }
 
+    public boolean hasZeroItems() {
+        return counter == 0;
+    }
+
     public void recalculate() {
         price = item.getPrice().multiply(new BigDecimal(counter));
     }
