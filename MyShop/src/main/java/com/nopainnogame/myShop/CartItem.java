@@ -9,7 +9,7 @@ public class CartItem {
     private int counter;
     private BigDecimal price;
 
-    public CartItem(Item item){
+    public CartItem(Item item) {
         this.item = item;
         this.counter = 1;
         this.price = item.getPrice();
@@ -17,15 +17,18 @@ public class CartItem {
 
     public void increaseCounter() {
         counter++;
-        price = item.getPrice().multiply(new BigDecimal(counter));
+        recalculate();
     }
 
-    public void decreaseCounter(){
-        if(counter > 0){
+    public void decreaseCounter() {
+        if (counter > 0) {
             counter--;
-            price = item.getPrice().multiply(new BigDecimal(counter));
+            recalculate();
         }
+    }
 
+    public void recalculate() {
+        price = item.getPrice().multiply(new BigDecimal(counter));
     }
 }
 
