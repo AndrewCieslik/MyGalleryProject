@@ -1,5 +1,6 @@
 package com.nopainnogame.myShop.controller;
 
+import com.nopainnogame.myShop.Cart;
 import com.nopainnogame.myShop.model.Item;
 import com.nopainnogame.myShop.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,10 +18,12 @@ import java.util.Optional;
 @Controller
 public class HomeController {
     private final ItemRepository itemRepository;
+    private final Cart cart;
 
     @Autowired
-    public HomeController(ItemRepository itemRepository) {
+    public HomeController(ItemRepository itemRepository, Cart cart) {
         this.itemRepository = itemRepository;
+        this.cart = cart;
     }
 
     @GetMapping("/")
