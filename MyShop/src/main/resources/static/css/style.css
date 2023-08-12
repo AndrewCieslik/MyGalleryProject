@@ -17,7 +17,7 @@ header {
 }
 
 .main-content {
-    background-color: gray;
+    background-color: whitesmoke;
     width: 75%;
     height: 500px;
     margin: auto;
@@ -29,7 +29,7 @@ header {
 }
 
 .item {
-    background-color: whitesmoke;
+    background-color: white;
     width: 250px;
     display: flex;
     flex-direction: column;
