@@ -11,13 +11,15 @@ public class UserManager {
         this.conn = conn;
     }
 
-    public void addUser(String username, String password) {
-        String insertSql = "INSERT INTO users (username, password) VALUES (?, ?)";
+    public void addUser(int id, String name, String password, String role) {
+        String insertSql = "INSERT INTO users (user_id, user_name, user_password, user_role) VALUES (?, ?, ?, ?)";
         PreparedStatement pstmt = null;
         try {
             pstmt = conn.prepareStatement(insertSql);
-            pstmt.setString(1, username);
-            pstmt.setString(2, password);
+            pstmt.setInt(1, id);
+            pstmt.setString(2, name);
+            pstmt.setString(3, password);
+            pstmt.setString(4, role);
             pstmt.executeUpdate();
             pstmt.close();
             System.out.println("User added.");
@@ -25,6 +27,7 @@ public class UserManager {
             throw new RuntimeException(e);
         }
     }
+
 
     public void removeUser(String username) {
         String deleteSql = "DELETE FROM users WHERE username = ?";
