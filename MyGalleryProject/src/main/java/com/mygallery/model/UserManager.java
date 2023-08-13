@@ -12,6 +12,10 @@ public class UserManager {
     }
 
     public void addUser(int id, String name, String password, String role) {
+        if (!role.equalsIgnoreCase("admin") && !role.equalsIgnoreCase("client")) {
+            System.out.println("Invalid role. Allowed roles: admin, client.");
+            return;
+        }
         String insertSql = "INSERT INTO users (user_id, user_name, user_password, user_role) VALUES (?, ?, ?, ?)";
         PreparedStatement pstmt = null;
         try {
